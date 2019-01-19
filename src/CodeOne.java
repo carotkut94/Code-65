@@ -8,13 +8,13 @@ import java.util.HashMap;
 public class CodeOne {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        int data[]  = twoSum(new int[]{3, 5, -4, 8, 11, 1, -1, 6}, 10);
+        int[] data = twoSum(new int[]{3, 5, -4, 8, 11, 1, -1, 6}, 10);
         for(int i: data){
             System.out.println(i);
         }
     }
 
-    private static int[] twoSum(int arr[], int target){
+    private static int[] twoSum(int[] arr, int target){
         HashMap<Integer, Boolean> data = new HashMap<>();
         for(int i : arr){
             if(data.containsKey(target-i)){
