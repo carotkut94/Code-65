@@ -1,3 +1,6 @@
+/**
+ * Implementation of Binary Search algorithm
+ */
 public class CodeFour {
     public static void main(String... args)
     {
